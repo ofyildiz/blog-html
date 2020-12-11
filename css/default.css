@@ -1,0 +1,46 @@
+body {
+background-color: #282a36;
+color: #f8f8f2;
+font-size: 1rem;
+font-family: Liberation Mono;
+text-align: justify;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+table {
+width: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+color: #ff79c6;
+text-align: center;
+}
+
+h2 {
+color: #ff79c6;
+text-align: center;
+}
+
+hr {
+border: 3px solid #ff79c6;
+border-style: none none solid;
+}
+
+a:link {
+color: #ff79c6;
+}
+
+a:visited {
+color: #bd93f9;
+}
+
+a:hover {
+color: #ff79c6;
+}
+
+a:active {
+color: #bd93f9;
+}
