@@ -4,14 +4,19 @@ color: #f8f8f2;
 font-size: 1rem;
 font-family: Liberation Mono;
 text-align: justify;
-margin-left: 25%;
-margin-right: 25%;
+margin-left: 20%;
+margin-right: 20%;
 }
 
 table {
 width: auto;
 margin-left: auto;
 margin-right: auto;
+}
+
+img {
+max-width: 100%;
+width: auto;
 }
 
 h1 {
