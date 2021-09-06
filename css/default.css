@@ -49,3 +49,7 @@ color: #ff79c6;
 a:active {
 color: #bd93f9;
 }
+
+pre {
+background-color: #282a36;
+}
