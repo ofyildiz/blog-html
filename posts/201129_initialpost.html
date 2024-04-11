@@ -3,11 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-09-06 Mon 13:41 -->
+<!-- 2024-04-11 Thu 18:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Initial Post</title>
-<meta name="author" content="Oemer Faruk Yildiz" />
+<meta name="author" content="Oemer Yildiz" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -191,40 +191,58 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
+  .org-svg { }
 </style>
 <link rel="stylesheet"
                   href="../css/default.css" type="text/css"/>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Initial Post</h1>
 <hr></hr>
 
-<div id="outline-container-org5b5088e" class="outline-2">
-<h2 id="org5b5088e">Text</h2>
-<div class="outline-text-2" id="text-org5b5088e">
+<div id="outline-container-org26bc8af" class="outline-2">
+<h2 id="org26bc8af"><a href="../blog.html">Blog</a></h2>
+<div class="outline-text-2" id="text-org26bc8af">
+<hr></hr>
+</div>
+</div>
+
+<div id="outline-container-orgdb0bf24" class="outline-2">
+<h2 id="orgdb0bf24">Text</h2>
+<div class="outline-text-2" id="text-orgdb0bf24">
 <p>
 This is the initial post.
 </p>
@@ -235,9 +253,9 @@ This is the initial post.
 </div>
 </div>
 
-<div id="outline-container-org5cde79b" class="outline-2">
-<h2 id="org5cde79b">Tables</h2>
-<div class="outline-text-2" id="text-org5cde79b">
+<div id="outline-container-org2d6b9b2" class="outline-2">
+<h2 id="org2d6b9b2">Tables</h2>
+<div class="outline-text-2" id="text-org2d6b9b2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -282,13 +300,13 @@ This is the initial post.
 </div>
 </div>
 
-<div id="outline-container-orgf1fee13" class="outline-2">
-<h2 id="orgf1fee13">Code</h2>
-<div class="outline-text-2" id="text-orgf1fee13">
+<div id="outline-container-org09e66fa" class="outline-2">
+<h2 id="org09e66fa">Code</h2>
+<div class="outline-text-2" id="text-org09e66fa">
 </div>
-<div id="outline-container-orge818ba6" class="outline-3">
-<h3 id="orge818ba6">C/C++</h3>
-<div class="outline-text-3" id="text-orge818ba6">
+<div id="outline-container-org145228a" class="outline-3">
+<h3 id="org145228a">C/C++</h3>
+<div class="outline-text-3" id="text-org145228a">
 <div class="org-src-container">
 <pre class="src src-c"><span style="color: #bd93f9; font-weight: bold;">#include</span><span style="color: #61bfff;">&lt;</span><span style="color: #f1fa8c;">stdio.h</span><span style="color: #61bfff;">&gt;</span>
 <span style="color: #bd93f9;">int</span> <span style="color: #50fa7b;">main</span><span style="color: #61bfff;">(){</span>
@@ -300,20 +318,20 @@ This is the initial post.
 </div>
 </div>
 
-<div id="outline-container-org1cfd60c" class="outline-3">
-<h3 id="org1cfd60c">Python</h3>
-<div class="outline-text-3" id="text-org1cfd60c">
+<div id="outline-container-orgbc70739" class="outline-3">
+<h3 id="orgbc70739">Python</h3>
+<div class="outline-text-3" id="text-orgbc70739">
 <div class="org-src-container">
-<pre class="src src-python"><span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">'Hello World!'</span>)
+<pre class="src src-python"><span style="color: #ffb86c;">print</span>(<span style="color: #f1fa8c;">'Hello World!'</span>)
 </pre>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgbc6a135" class="outline-2">
-<h2 id="orgbc6a135">Formulas</h2>
-<div class="outline-text-2" id="text-orgbc6a135">
+<div id="outline-container-orgfbf9a0f" class="outline-2">
+<h2 id="orgfbf9a0f">Formulas</h2>
+<div class="outline-text-2" id="text-orgfbf9a0f">
 \begin{align}
 \nabla D &= \rho \\
 \nabla B &= 0 \\
@@ -322,7 +340,7 @@ This is the initial post.
 \end{align}
 
 
-<div id="orgef65b1f" class="figure">
+<div id="org176f6ba" class="figure">
 <p><img src="https://media.giphy.com/media/udhngZK2IFTc4/giphy.gif" alt="giphy.gif" />
 </p>
 </div>
@@ -330,8 +348,8 @@ This is the initial post.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Oemer Faruk Yildiz</p>
-<p class="date">Created: 2021-09-06 Mon 13:41</p>
+<p class="author">Author: Oemer Yildiz</p>
+<p class="date">Created: 2024-04-11 Thu 18:04</p>
 </div>
 </body>
 </html>
